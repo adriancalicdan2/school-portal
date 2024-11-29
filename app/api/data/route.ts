@@ -6,7 +6,6 @@ export async function GET() {
   const user = await currentUser();
 
   const userId = authData.userId;
-  authData.sessionId;
 
   if (!userId) {
     return NextResponse.json(
