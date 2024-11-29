@@ -4,15 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  BarChart,
   BookOpen,
   DollarSign,
   GraduationCap,
   Home,
   Menu,
   Settings,
-  User,
-  X,
 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
