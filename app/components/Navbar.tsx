@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useUser } from "@clerk/nextjs"; // Import useUser hook from Clerk
 
 const Navbar: React.FC = () => {
-  const { isSignedIn, user } = useUser(); // Get the user and isSignedIn state from Clerk
+  const { isSignedIn } = useUser(); // Get the user and isSignedIn state from Clerk
   const router = useRouter();
 
   return (
